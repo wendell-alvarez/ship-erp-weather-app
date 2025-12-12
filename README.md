@@ -1,8 +1,9 @@
 ## HOW TO RUN THE PROJECT
     1. Clone the repository
     2. populate the WEATHERMAP_API_KEY on .env, WEATHERMAP_ENDPOINT is prepopulated from .env.example
-    2. Run "composer install"
-    4. Run "php artisan serve"
+    3. Run "composer install"
+    4. php artisan key:generate
+    5. Run "php artisan serve"
 
 ## HOW TO RUN TEST
     1. Run "php artisan test"
